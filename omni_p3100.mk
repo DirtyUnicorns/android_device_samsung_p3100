@@ -24,8 +24,10 @@ PRODUCT_RELEASE_NAME := p3100
 TARGET_SCREEN_HEIGHT := 1024
 TARGET_SCREEN_WIDTH := 600
 
-# Inherit some common CM stuff.
-$(call inherit-product, vendor/omni/config/common_full_phone.mk)
+# Inherit from those products. Most specific first.
+$(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
+# Inherit from our custom product configuration
+$(call inherit-product, vendor/omni/config/common.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/samsung/p3100/full_p3100.mk)

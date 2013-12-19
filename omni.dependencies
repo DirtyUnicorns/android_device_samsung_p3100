@@ -18,9 +18,9 @@
 		"revision": "android-4.4"
     },
     {
-        "remote": "omnirom"
+        "remote": "CyanogenMod"
 		"repository": "android_packages_apps_SamsungServiceMode",
         "target_path": "packages/apps/SamsungServiceMode"
-		"revision": "android-4.4"
+		"revision": "cm-11.0"
     }
 ]
