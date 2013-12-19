@@ -27,7 +27,8 @@ PRODUCT_COPY_FILES += \
 
 # Packages
 PRODUCT_PACKAGES += \
-    SamsungServiceMode
+    SamsungServiceMode \
+    OmniGears
 
 # RIL
 PRODUCT_PROPERTY_OVERRIDES += \
