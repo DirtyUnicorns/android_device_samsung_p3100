@@ -28,6 +28,7 @@ TARGET_SCREEN_WIDTH := 600
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 # Inherit from our custom product configuration
 $(call inherit-product, vendor/omni/config/common.mk)
+$(call inherit-product, device/samsung/p3100/device.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/samsung/p3100/full_p3100.mk)
