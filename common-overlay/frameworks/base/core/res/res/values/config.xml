@@ -204,8 +204,9 @@
     </integer-array>
 
     <!-- Workaround for devices with broken keyboards -->
-    <!-- <bool name="config_forceDisableHardwareKeyboard">true</bool> -->
-
+    <add-resource type="bool" name="config_forceDisableHardwareKeyboard"></add-resource>
+    <bool name="config_forceDisableHardwareKeyboard">true</bool>
+	
     <!--  Maximum number of supported users -->
     <integer name="config_multiuserMaximumUsers">5</integer>
 
@@ -223,5 +224,8 @@
 
     <!-- If this is true, the screen will fade off. -->
     <bool name="config_animateScreenLights">false</bool>
+
+    <!-- If this is true, key chords can be used to take a screen record on the device. -->
+    <bool name="config_enableScreenrecordChord">false</bool>
 
 </resources>
