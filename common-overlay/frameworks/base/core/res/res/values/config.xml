@@ -204,7 +204,6 @@
     </integer-array>
 
     <!-- Workaround for devices with broken keyboards -->
-    <add-resource type="bool" name="config_forceDisableHardwareKeyboard"></add-resource>
     <bool name="config_forceDisableHardwareKeyboard">true</bool>
 	
     <!--  Maximum number of supported users -->
