@@ -1,7 +1,7 @@
 [
   {
     "remote": "github",
-    "repository": "andi/android_device_samsung_omap4-common",
+    "repository": "andi34/android_device_samsung_omap4-common",
     "target_path": "device/samsung/omap4-common",
     "revision": "android-4.4"
   },
