@@ -13,7 +13,7 @@
   },
   {
     "remote": "github",
-    "repository": "codyf86/android_kernel_samsung_espresso10",
+    "repository": "andi34/android_kernel_samsung_espresso10",
     "target_path": "kernel/samsung/espresso10",
     "revision": "cm-11.0"
   },
