@@ -229,4 +229,8 @@
 
     <!-- Enable lockscreen rotation by default -->
     <bool name="config_enableLockScreenRotation">true</bool>
+
+    <!-- Set default number of columns for QuickSettings -->
+    <integer name="config_defaultColumnsNum">3</integer>
+
 </resources>
