@@ -19,7 +19,7 @@
 $(call inherit-product, vendor/du/config/gsm.mk)
 
 # Inherit some common DU stuff.
-$(call inherit-product, vendor/du/config/common.mk)
+$(call inherit-product, vendor/du/config/common_tablet.mk)
 
 # Inherit from the common Open Source product configuration
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
