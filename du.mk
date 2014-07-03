@@ -15,21 +15,21 @@
 # limitations under the License.
 #
 
-# Inherit Omni GSM telephony parts
-$(call inherit-product, vendor/omni/config/gsm.mk)
+# Inherit DU GSM telephony parts
+$(call inherit-product, vendor/du/config/gsm.mk)
 
 # Release name
 PRODUCT_RELEASE_NAME := p3100
 
-# Inherit some common Omni stuff.
-$(call inherit-product, vendor/omni/config/common.mk)
+# Inherit some common DU stuff.
+$(call inherit-product, vendor/du/config/common.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/samsung/p3100/full_p3100.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := p3100
-PRODUCT_NAME := omni_p3100
+PRODUCT_NAME := du_p3100
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := GT-P3100
 PRODUCT_MANUFACTURER := samsung
